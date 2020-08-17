@@ -19,3 +19,10 @@ add_action( 'wp_enqueue_scripts', function () {
       'all' // What sort of stylesheet (media query) is this?
     );
   } );
+
+  register_nav_menus( // We must register navigations, so that WP knows about them!
+    array ( // An array of menu "IDs" and "plain english names." Associative.
+      'main_menu' => 'Main Menu',
+      'footer_menu' => 'Footer Navigation'
+    )
+  );
