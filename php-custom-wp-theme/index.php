@@ -4,7 +4,7 @@ get_header();
 
 ?>
 
-<p>Hello, World! </p>
+<p>This is index.php </p>
 
 <?php
 
